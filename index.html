@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amar Dhaka</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="Theme_dark.css">
+    <link rel="stylesheet" href="./dist/MarkerCluster.css">
+    <link rel="stylesheet" href="./dist/MarkerCluster.Default.css">
+
+    <script src="area/statesUs.js"></script>
+    <script src="area/dhanMondi.js"></script>
+    <script src="area/kalabagan.js"></script>
+    <script src="area/purbachal.js"></script>
+    <script src="area/uttaraSector3.js"></script>
+    <script src="area/bashundhara.js"></script>
+    <script src="area/lalmatia.js"></script>
+    <script src="area/shyamoli.js"></script>
+    <script src="area/jigatola.js"></script>
+    <script src="area/sherEbanglaNagar.js"></script>
+    <script src="area/monipuripara.js"></script>
+    <script src="area/tejgaon.js"></script>
+    <script src="area/motijheel.js"></script>
+    <script src="area/dhakaCityCorporation.js"></script>
+    <script src="area/uttara.js"></script>
+    <script src="area/crime.js"></script>
+    <script src="cityCorporationCoordinates.js"></script>
+    <script src="area/bangladesh.js"></script>
+    <script src="area/ramna.js"></script>
+    <script src="area/crimeList.js"></script>
+
+    <script src="./dist/leaflet.markercluster.js"></script>
+    
+    
+</head>
+<body>
+    <div class="container">
+        <div class="leftContainer">
+            <div class="heading">
+                <h1>Stories</h1>
+            </div>
+            <div>
+                <ul class="list">
+                    
+                </ul>
+            </div>
+            
+        </div>
+        <div class="rightContainer" class="Div">
+            <div class="Div">
+                <table>
+                    <tr>
+                        <td>
+                            <button onclick="showArea()">Show Area wise crime </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="map" class="Div"></div>
+            
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
